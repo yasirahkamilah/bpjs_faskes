@@ -219,7 +219,7 @@
             });
 
             // 2. Plotting Lingkaran Zona (Optimasi Fetch)
-            fetch('wilayah_kecamatan.json')
+            fetch('wilayah_kecamatan.geojson')
                 .then(res => res.json())
                 .then(geojsonData => {
                     let wilayahTerdeteksi = new Set();
@@ -282,4 +282,5 @@
 </body>
 
 </html>
+
 
