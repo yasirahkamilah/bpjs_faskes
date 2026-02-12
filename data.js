@@ -30,8 +30,25 @@ const dataKecamatan = {
 // Database Fasilitas Kesehatan
 const databaseFaskes = [
     // --- KOTA PALEMBANG ---
-    { nama: "RSUP Dr. Mohammad Hoesin", kota: "Palembang", kec: "Ilir Timur I", jenis: "Rumah Sakit", lat: -2.967, lng: 104.750, alamat: "Jl. Jend. Sudirman No.3.5" },
-    { nama: "RS RK Charitas", kota: "Palembang", kec: "Ilir Timur I", jenis: "Rumah Sakit", lat: -2.976, lng: 104.753, alamat: "Jl. Jend. Sudirman No.1054" },
+    {
+        "nama": "RS Umum Pusat Dr. Mohammad Hoesin",
+        "kota": "Palembang",
+        "kec": "Ilir Timur I",
+        "jenis": "Rumah Sakit",
+        "alamat": "Jl. Jend. Sudirman No.KM.3,5",
+        "lat": -2.9662490897792555,
+        "lng": 104.75020094264771
+    },
+    {
+        "nama": "RS RK Charitas",
+        "kota": "Palembang",
+        "kec": "Ilir Timur I",
+        "jenis": "Rumah Sakit",
+        "alamat": "Jl. Jend. Sudirman No.1054",
+        "lat": -2.976,
+        "lng": 104.753
+    },
+    
     { nama: "RS Siloam Sriwijaya", kota: "Palembang", kec: "Ilir Barat I", jenis: "Rumah Sakit", lat: -2.991, lng: 104.739, alamat: "Jl. POM IX, Lorok Pakjo" },
     { nama: "RSUD Palembang BARI", kota: "Palembang", kec: "Seberang Ulu I", jenis: "Rumah Sakit", lat: -3.018, lng: 104.761, alamat: "Jl. Panca Usaha No.1" },
     { nama: "RS Muhammadiyah Palembang", kota: "Palembang", kec: "Seberang Ulu II", jenis: "Rumah Sakit", lat: -3.001, lng: 104.774, alamat: "Jl. KH. Ahmad Dahlan" },
@@ -61,4 +78,5 @@ const databaseFaskes = [
     // --- KABUPATEN OKI ---
     { nama: "RSUD Kayu Agung", kota: "OKI", kec: "Kayu Agung", jenis: "Rumah Sakit", lat: -3.391, lng: 104.832, alamat: "Jl. Lintas Timur Sumatera, Kayu Agung" },
     { nama: "Puskesmas Lempuing", kota: "OKI", kec: "Lempuing", jenis: "Puskesmas", lat: -3.795, lng: 104.855, alamat: "Tugumulyo, OKI" }
+
 ];
