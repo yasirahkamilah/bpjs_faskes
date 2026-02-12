@@ -219,12 +219,12 @@
             });
 
             // 2. Plotting Lingkaran Zona (Optimasi Fetch)
-            fetch('wilayah_kecamatan.geojson')
+            fetch('wilayah_kecamatan.json')
                 .then(res => res.json())
-                .then(geojsonData => {
+                .then(jsonData => {
                     let wilayahTerdeteksi = new Set();
 
-                    L.geoJson(geojsonData, {
+                    L.json(jsonData, {
                         onEachFeature: function(feature, layer) {
                             let namaKecJSON = feature.properties.name || feature.properties.NAMOBJ;
                             
@@ -280,4 +280,5 @@
         legend.addTo(map);
     </script>
 </body>
+
 </html>
